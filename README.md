@@ -5,4 +5,4 @@ golang cli weather
 ### TODO
 - [ ] make units selectable as param
 - [ ] make ascii art out of images to represent weather conditions
-- [ ] make foracast as option
+- [ ] make forecast as option
