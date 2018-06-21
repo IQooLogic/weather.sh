@@ -20,7 +20,7 @@ func GetWeather(lat, lng float32) (*WeatherInfo, error) {
 	}
 
 	if resp.StatusCode != http.StatusOK {
-		return nil, errors.New("Forbidden (most likely invalid token)")
+		return nil, errors.New("\nForbidden (most likely invalid token)")
 	}
 
 	err = json.NewDecoder(resp.Body).Decode(&wi)

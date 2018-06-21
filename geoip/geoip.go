@@ -22,7 +22,7 @@ func GetLocation() (location Location, err error) {
 	}
 
 	if location.Status != "success" {
-		return location, fmt.Errorf("unable to determine location")
+		return location, fmt.Errorf("\nunable to determine location")
 	}
 
 	return location, nil
