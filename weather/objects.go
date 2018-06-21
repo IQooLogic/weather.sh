@@ -2,7 +2,7 @@ package weather
 
 const (
 	API_URL = "http://api.openweathermap.org/data/2.5/weather?lat=%f&lon=%f&APPID=%s&units=metric"
-	KEY     = "API_KEY"
+	KEY     = "b6907d289e10d714a6e88b30761fae22"
 )
 
 type WeatherInfo struct {
