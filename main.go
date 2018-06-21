@@ -30,6 +30,7 @@ func main() {
 		os.Exit(1)
 	}
 
+	// FIXME better organize description matching
 	var description = wi.Weather[0].Description
 	var icon = ""
 	if strings.Contains(description, "cloud") {

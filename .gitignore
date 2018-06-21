@@ -11,3 +11,27 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 weather.sh
+weather.sh-darwin-amd64
+weather.sh-dragonfly-amd64
+weather.sh-freebsd-amd64
+weather.sh-freebsd-arm5
+weather.sh-freebsd-arm6
+weather.sh-freebsd-arm7
+weather.sh-linux-386
+weather.sh-linux-amd64
+weather.sh-linux-arm5
+weather.sh-linux-arm6
+weather.sh-linux-arm64
+weather.sh-linux-arm7
+weather.sh-linux-mips64
+weather.sh-linux-mips64le
+weather.sh-linux-ppc64
+weather.sh-linux-ppc64le
+weather.sh-netbsd-amd64
+weather.sh-netbsd-arm5
+weather.sh-netbsd-arm6
+weather.sh-netbsd-arm7
+weather.sh-openbsd-amd64
+weather.sh-plan9-386
+weather.sh-plan9-amd64
+weather.sh-solaris-amd64
