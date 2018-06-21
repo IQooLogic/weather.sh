@@ -11,8 +11,8 @@ import (
 	"os"
 	"strings"
 
-	"weather.sh/geoip"
-	"weather.sh/weather"
+	"github.com/weather.sh/geoip"
+	"github.com/weather.sh/weather"
 )
 
 func main() {
@@ -34,13 +34,13 @@ func main() {
 	var icon = ""
 	if strings.Contains(description, "cloud") {
 		icon = "\u2601"
-	} else if strings.Contains(description, "sun") {
+	} else if strings.Contains(description, "sun") || strings.Contains(description, "clear") {
 		icon = "\u2600"
 	} else if strings.Contains(description, "snow") {
 		icon = "\u2603"
 	} else { // rain
 		icon = "\u2602"
 	}
-	fmt.Printf("\nTemperature is: %s %.1f\u00b0C (%s) \u2193%.1f \u2191%.1f", icon,
+	fmt.Printf("\nTemperature is: %s %.1f\u00b0C (%s) \u2193%.1f \u2191%.1f\n", icon,
 		wi.Main.Temp, description, wi.Main.TempMin, wi.Main.TempMax)
 }
